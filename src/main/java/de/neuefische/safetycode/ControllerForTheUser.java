@@ -1,15 +1,17 @@
 package de.neuefische.safetycode;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/greetings")
+@RequestMapping("api/users")
+@RequiredArgsConstructor
 public class ControllerForTheUser {
 
-    @GetMapping
-    public String messageTwo(){
-        return "Moinsen, Geringverdiener!";
+    private final UserService userService;
+
+    @PostMapping
+    public UserDocument createUser(@RequestBody UserDocument user) {
+        return userService.createUser(user);
     }
 }
