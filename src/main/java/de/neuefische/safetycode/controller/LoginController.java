@@ -1,5 +1,7 @@
-package de.neuefische.safetycode;
+package de.neuefische.safetycode.controller;
 
+import de.neuefische.safetycode.service.JwtService;
+import de.neuefische.safetycode.data.LoginData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;

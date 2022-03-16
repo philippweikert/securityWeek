@@ -1,4 +1,4 @@
-package de.neuefische.safetycode;
+package de.neuefische.safetycode.data;
 
 import lombok.Data;
 

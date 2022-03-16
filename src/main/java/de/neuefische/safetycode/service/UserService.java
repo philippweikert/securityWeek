@@ -1,7 +1,8 @@
-package de.neuefische.safetycode;
+package de.neuefische.safetycode.service;
 
+import de.neuefische.safetycode.data.UserDocument;
+import de.neuefische.safetycode.data.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package de.neuefische.safetycode;
+package de.neuefische.safetycode.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

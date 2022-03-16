@@ -1,5 +1,6 @@
-package de.neuefische.safetycode;
+package de.neuefische.safetycode.data;
 
+import de.neuefische.safetycode.data.UserDocument;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

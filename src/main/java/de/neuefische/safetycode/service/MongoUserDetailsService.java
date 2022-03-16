@@ -1,5 +1,6 @@
-package de.neuefische.safetycode;
+package de.neuefische.safetycode.service;
 
+import de.neuefische.safetycode.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
